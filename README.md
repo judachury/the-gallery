@@ -1,13 +1,11 @@
 ------------------------------------------------------------------------
 THE GALLERY WEB APP
 ------------------------------------------------------------------------
+This is an image upload which creates a thumbnail and a medium size of the original image
 
 
 Configuration:
 -------------------
-Before you deploy this application you must have a folder to do uploads and if you need to create images it should have the thumb and medium folders, all three with full permissions (777).
-In addition, the image table must be created with the query that can be found in the scripts folder.
-
 To change any configuration go to 'includes/inc.config.php'. The database connection and the site language details can be modified in here. The following array shows where you should add the data:
 
 $config['db_host'] = 'the host name or url here';
@@ -28,7 +26,7 @@ $tmp = 'add the template location';
 
 FILE TREE:
 ----------
-This app is located at the url 'http://titan.dcs.bbk.ac.uk/~jachur01/w1fma/index.php' and it contains the following structure of directories and files:
+This app is located at the url '' and it contains the following structure of directories and files:
 
 - classes: 										
 	- Connection.php
@@ -72,7 +70,7 @@ This app is located at the url 'http://titan.dcs.bbk.ac.uk/~jachur01/w1fma/index
 	- image.php
 	- share.php
 
-- web-service									(the web-service can be access at http://titan.dcs.bbk.ac.uk/~jachur01/w1fma/web-service/thegallery.php?image)
+- web-service									
 	- thegallery.php
 	
 - index.php
