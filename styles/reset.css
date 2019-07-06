@@ -1,0 +1,24 @@
+/* Give HTML5 attribute to older browsers and reset some browser default features */
+h1, h2, h3 {
+	margin:0px;
+	padding:0px;
+}
+
+main, article, footer, header, nav, section {
+	display: block;
+	overflow: hidden;
+}
+
+body {
+	font-size:1.2em;
+	line-height: 1;
+	margin: 0px;
+}
+
+ul { 
+	list-style: none;
+	padding: 0;
+	text-align: center;
+	overflow: auto;
+	margin: 0 auto;
+}

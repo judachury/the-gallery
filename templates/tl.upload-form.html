@@ -1,0 +1,21 @@
+﻿<form enctype="multipart/form-data" action="{{action}}" method="post">
+	<fieldset>
+		<legend>{{legend}}</legend>
+		<input type="hidden" name="myimage" />
+		<div class="form-element">
+			<label for="title">{{title_label}}</label>
+			<input id="title" name="title" type="text" value="{{title}}" />
+		</div>
+		<div class="form-element">
+			<label for="image">{{image_label}}</label>
+			<input id="image" name="image" type="file" />
+		</div>		
+		<div class="form-element">
+			<label for="description">{{description_label}}</label>
+			<textarea id="description" name="description" rows="5" cols="40">{{description}}</textarea>
+		</div>
+		<div class="form-element button">		
+			<button type="submit">{{button}}</button>
+		</div>
+	</fieldset>
+</form>

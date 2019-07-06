@@ -1,0 +1,226 @@
+/*Generic style*/
+body {
+	font: 1.2em Palatino, "Palatino LT STD", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+}
+
+h2 {
+	font-size:1.8em;
+	border-bottom:1px dotted #ccc;
+	margin-bottom:70px;
+}
+
+a:link {
+	color:red;
+	text-decoration:none;
+}
+
+a:visited {
+	color:black;
+}
+
+a:hover {
+	color:grey;
+}
+
+h1, h2, h3 {
+	padding:15px;
+}
+
+/* Header section */
+header {
+	width:100%; 
+	background:#fff;
+	min-height: 86px;
+}
+
+h1 {
+	font-size:3em;
+}
+
+/* Nav */
+nav {
+	width:100%;
+	background:#000;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+
+nav ul {
+	width:850px;
+	min-height:50px;
+	margin:0 auto;
+}
+
+nav ul li {
+	color:#fff;
+	width:20%;
+	text-align:center;
+	float:left;
+	padding:12px 15px;
+	height:100%;
+	border-left:1px solid #ccc;
+}
+
+nav ul li:last-child {
+	border-right:1px solid #ccc;
+}
+
+nav ul li a:visited {
+	color:#fff;
+}
+
+/* Main part of the page */
+main {
+	width:850px;
+	margin: 155px auto 0 auto;
+	-webkit-box-shadow: 0px 5px 5px 5px #ccc;
+	-moz-box-shadow: 0px 5px 5px 5px #ccc;
+	box-shadow: 0px 5px 5px 5px #ccc;
+	position:relative;
+}
+
+main a:visited {
+	color:red;
+}
+
+article {
+	padding:5px;
+}
+
+article section {
+	overflow:auto;	
+}
+
+footer {
+	text-align:center;
+}
+
+/*form*/
+form fieldset {
+	border:2px dotted #ccc;
+}
+
+form legend {
+	font-size:1.5em;
+}
+
+button {
+	
+	text-transform:uppercase;
+	font-weight:bold;
+	padding:10px 60px;
+	margin:30px;
+}
+
+textarea {
+	max-width:300px;
+}
+
+/*Classes*/
+.main-header {
+	position:fixed;
+	z-index:10;
+	top:0px;
+}
+
+.main-header h1 {
+	width:850px;
+	margin:10px auto;
+}
+
+/*Home page area*/
+.thumb {
+	-webkit-column-width:165px;
+	/* -webkit-column-gap:4px; */
+	-moz-column-width:160px;
+	column-width:160px;
+}
+
+.thumb li {
+	border:1px dotted #ccc;
+	margin:0;
+	padding: 10px;
+	min-height: 235px;
+	position:relative;
+	break-inside: avoid-column;
+	-webkit-column-break-inside: avoid;
+	-moz-column-break-inside:avoid;
+}
+
+.thumb li a {
+	display:block;
+	width:100%;
+}
+
+.thumb li div {
+	width:100%;
+	border-top:  1px dotted #ccc;
+	position:absolute;
+	bottom:15px;
+	left:0;
+	padding: 10px 0;
+	font-size: 0.9em;
+}
+
+/*share page area*/
+.form-element {
+	margin-bottom:10px;
+}
+
+.form-element label {
+	display:inline-block;
+	width:35%;
+	text-align:right;
+	padding-right:20px;
+}
+
+.errors li {
+	color:red;
+	text-align:left;
+}
+
+.errors li:first-child {
+	font-weight: bold;
+	color: black;
+}
+
+.button {
+	text-align:center;
+}
+
+.image-upload {
+	color:green;
+}
+
+/*image page area*/
+.medium {
+	text-align:center;
+}
+
+.medium img {
+	border:2px dotted grey;
+	padding:30px;
+}
+
+.medium p {
+	font-size:1.5em;
+	padding:0 10%;
+}
+
+/*404 page area*/
+p.message-404 {
+	margin: 10px 15%;
+	font-size:1.1em;
+}
+
+/* messages */
+
+.message-404, .image-upload, .no-images {
+	text-align:center;
+	font-size:1.5em;
+	margin-bottom:70px;
+}
+
+.message-404 a:hover, .image-upload a:hover, .no-images a:hover {
+	text-decoration:underline;
+}
