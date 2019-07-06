@@ -2,6 +2,7 @@
 THE GALLERY WEB APP
 ------------------------------------------------------------------------
 This is an image upload which creates a thumbnail and a medium size of the original image
+available at http://php-gallery-demo.000webhostapp.com/index.php?page=home
 
 
 Configuration:
